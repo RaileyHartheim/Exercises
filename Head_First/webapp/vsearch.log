@@ -1,3 +1,7 @@
-<Request 'http://127.0.0.1:5000/search4' [POST]> {'e', 'i'}
-<Request 'http://127.0.0.1:5000/search4' [POST]> {'a', 'e', 'i', 'u'}
-<Request 'http://127.0.0.1:5000/search4' [POST]> {'y', 'x'}
+ImmutableMultiDict([('phrase', 'Hello darkness, my old friend...'), ('letters', 'aieou')])|127.0.0.1|Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.158 Safari/537.36|{'e', 'o', 'a', 'i'}
+ImmutableMultiDict([('phrase', 'galaxy'), ('letters', 'xyz')])|127.0.0.1|Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.158 Safari/537.36|{'y', 'x'}
+ImmutableMultiDict([('phrase', 'the cake is a lie'), ('letters', 'aieou')])|127.0.0.1|Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.158 Safari/537.36|{'e', 'a', 'i'}
+ImmutableMultiDict([('phrase', 'yandex'), ('letters', 'xyz')]) | 127.0.0.1 | Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.158 Safari/537.36 | {'y', 'x'}
+
+ImmutableMultiDict([('phrase', "why's everybody always picking on me"), ('letters', 'aieou')]) | 127.0.0.1 | Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.158 Safari/537.36 | {'e', 'o', 'i', 'a'}
+ImmutableMultiDict([('phrase', 'Hartheim'), ('letters', 'aieou')]) | 127.0.0.1 | Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.158 Safari/537.36 | {'a', 'i', 'e'}
